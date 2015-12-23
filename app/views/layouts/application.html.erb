@@ -8,13 +8,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <form class="form-horizontal">
+   <div class="form-group">
     <nav class="navbar">
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Message Board</a>
       </div>
     </div>
-  </nav>
+   </div>
+   </nav>
+  </form>
   <div class="container">
     <%= yield %>
   </div>
